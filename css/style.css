@@ -1,6 +1,6 @@
 @font-face {
     font-family: "super font";
-    src: url("../fonts/font.ttf")
+    src: url("../fonts/fonts.ttf")
 }
 
 
@@ -24,14 +24,17 @@ body {
 header {
     padding: 60px;
     text-align: center;
-    background-color: burlywood;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-double-11-promotes-narrow-season-geometric-carnival-orange-banner-image_175249.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     color: lightseagreen;
 
 }
 
 nav {
     display: flex;
-    background-color: coral;
+    background-color: orange;
     height: 50px;
     align-items: center;
 
@@ -103,6 +106,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         height: auto;
+       
     }
 
     .toggle {
@@ -119,7 +123,7 @@ footer {
         display: none;
     }
 
-    /*
+   
     aside{
         display: flex;
         flex-direction: column;
@@ -127,7 +131,7 @@ footer {
         padding-bottom: 50px;
         
     }
-*/
+
     #checkbox_menu:checked + label > a {
         display: block;
         text-align: center;
