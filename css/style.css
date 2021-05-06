@@ -2,16 +2,6 @@
     font-family: "super font";
     src: url("../fonts/fonts.ttf")
 }
-
-
-
-
-
-
-
-
-
-
 * {
     box-sizing: border-box;
 }
@@ -27,9 +17,7 @@ header {
     background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-double-11-promotes-narrow-season-geometric-carnival-orange-banner-image_175249.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
     color: lightseagreen;
-
 }
 
 nav {
@@ -37,7 +25,6 @@ nav {
     background-color: orange;
     height: 50px;
     align-items: center;
-
 }
 
 nav a {
@@ -46,7 +33,6 @@ nav a {
     text-decoration: none;
     font-size: 1.1em;
     font-weight: bolder;
-
 }
 
 nav label {
@@ -55,13 +41,9 @@ nav label {
     width: 100%;
 }
 
-
-
-
 nav a:hover {
     background-color: #983232;
 }
-
 
 #checkbox_menu,
 .toggle {
@@ -71,7 +53,6 @@ nav a:hover {
 .row {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 aside {
@@ -96,17 +77,14 @@ footer {
     padding: 20px;
     background-color: peachpuff;
     text-align: center;
-
 }
 
 @media screen and (max-width:768px) {
-
     .row,
     nav {
         flex-direction: column;
         justify-content: center;
         height: auto;
-       
     }
 
     .toggle {
@@ -114,22 +92,17 @@ footer {
         align-items: center;
         color: brown;
         font-size: 2em;
-
-
     }
-
 
     label > a {
         display: none;
     }
 
-   
     aside{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        padding-bottom: 50px;
-        
+        padding: 0 0 50px 0 ;
     }
 
     #checkbox_menu:checked + label > a {
@@ -143,6 +116,5 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-
 
 }
